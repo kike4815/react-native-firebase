@@ -12,8 +12,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen component={CreateuserScreen} name='create_user'/>
         <Stack.Screen component={UsersList} name='user_list'/>
+        <Stack.Screen component={CreateuserScreen} name='create_user'/>
         <Stack.Screen component={UserDetailScreen} name='user_detail'/>
       </Stack.Navigator>
     </NavigationContainer>
